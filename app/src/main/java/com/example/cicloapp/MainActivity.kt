@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Aplicativo oculto", Toast.LENGTH_SHORT).show()
     }
 //onCreate()
+    //onStop(), onResume() y onPause()
     override fun onResume() {
         super.onResume()
         Toast.makeText(this,"Aplicativo visible", Toast.LENGTH_SHORT).show()
