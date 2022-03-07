@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
     }
 //onCreate()
     //onStop(), onResume() y onPause()
+    //onDestroy
     override fun onResume() {
         super.onResume()
         Toast.makeText(this,"Aplicativo visible", Toast.LENGTH_SHORT).show()
