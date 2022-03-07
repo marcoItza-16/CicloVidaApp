@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
 //onCreate()
     //onStop(), onResume() y onPause()
     //onDestroy
+    //Final commit de apppciclo
     override fun onResume() {
         super.onResume()
         Toast.makeText(this,"Aplicativo visible", Toast.LENGTH_SHORT).show()
